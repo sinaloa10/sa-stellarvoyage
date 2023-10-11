@@ -37,7 +37,7 @@ function createStars() {
 
 // Esferas
 const textureLoader = new THREE.TextureLoader();
-const sphereTextures = ['/spaceapps/dist/assets/images/moon.jpg', '/spaceapps/dist/assets/images/marte-min.jpg', '/spaceapps/dist/assets/images/mercurio-min.jpg', '/spaceapps/dist/assets/images/venus-min.jpg'];
+const sphereTextures = ['/sa-stellarvoyage/dist/assets/images/moon.jpg', '/spaceapps/dist/assets/images/marte-min.jpg', '/spaceapps/dist/assets/images/mercurio-min.jpg', '/spaceapps/dist/assets/images/venus-min.jpg'];
 
 const geometry = new THREE.SphereGeometry();
 const sphereMaterials = sphereTextures.map(texturePath => {
