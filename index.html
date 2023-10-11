@@ -5,7 +5,17 @@
     <link rel="icon" type="image/svg+xml" href="../images/icon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Stellar Voyague</title>
-    <link rel="stylesheet" href="style.css">
+    
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@<version>/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@<version>/examples/jsm/"
+        }
+      }
+    </script>
+    <script type="module" crossorigin src="/sa-stellarvoyage/dist/assets/index-e327362f.js"></script>
+    <link rel="stylesheet" href="/sa-stellarvoyage/dist/assets/index-e4d68966.css">
   </head>
   <body id="body">
     <div class="container">
@@ -17,16 +27,9 @@
       <button id="toggleButton" class="audio-control-button">
         <span class="icon">🔊</span>
       </button>
-      <audio id="audio" class="fade-out" src="../audio/strack-def.wav"></audio>
+      <audio id="audio" class="fade-out" src="/sa-stellarvoyage/dist/assets/strack-def.wav"></audio>
     </div>
-    <script type="importmap">
-      {
-        "imports": {
-          "three": "https://unpkg.com/three@<version>/build/three.module.js",
-          "three/addons/": "https://unpkg.com/three@<version>/examples/jsm/"
-        }
-      }
-    </script>
-    <script type="module" src="./main.js"></script>
+
+    
   </body>
 </html>
