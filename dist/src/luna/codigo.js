@@ -1,4 +1,4 @@
-import * as THREE from "/spaceapps/node_modules/three/build/three.module.js";
+import * as THREE from "/sa-stellarvoyage/node_modules/three/build/three.module.js";
 
 // Setup
 
